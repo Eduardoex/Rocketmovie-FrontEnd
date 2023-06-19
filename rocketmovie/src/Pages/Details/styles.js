@@ -4,6 +4,7 @@ export const Container = styled.div`
 width: 100%;
 height: 100vh;
 
+
 display: grid;
 grid-template-rows: 105px auto;
 grid-template-areas: 
@@ -47,11 +48,20 @@ export const Content = styled.div`
     font-weight: 500;
     font-size: 36px;
     line-height: 47px;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
 
     > svg {
     color: ${({ theme }) => theme.COLORS.SALMON};
-    
+
+   
+    height: 20px;
     }
+
+     svg:nth-child(1){
+      margin-left: 18px;
+     }
   }
 
   > p {
@@ -60,8 +70,18 @@ export const Content = styled.div`
     padding-top: 24px;
     text-align: justify;
 
+    display: flex;
+    align-items: center;
+
+      > img{
+        margin-right: 8px ;
+      }
+
+
       > svg {
         color: ${({ theme }) => theme.COLORS.SALMON};
+        margin:0 8px 0 8px;
+        
       }
     
       > img {
@@ -75,6 +95,7 @@ export const Content = styled.div`
   }
 
   > Section {
+    margin: 0;
     padding: 40px 0 40px 0;
   }
 
@@ -84,11 +105,17 @@ export const Content = styled.div`
 `
 
 export const Back = styled.div`
+
+  display: flex;
+  
+  align-items: center;
+
 > svg{
   width: 16px;
   height: 16px;
 
   color: ${({ theme }) => theme.COLORS.SALMON};
+  
 }
 `
 

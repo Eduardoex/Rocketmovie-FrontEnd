@@ -53,6 +53,7 @@ export const Brand = styled.div`
 display: flex;
 align-items: center;
 
+
 > h1 {
   font-size: 24px;
   font-weight: 700;
@@ -61,8 +62,11 @@ align-items: center;
 `
 
 
-/*export const Search = styled.div`
+export const Search = styled.div`
 grid-area: serch;
 
-padding: 64px 64px 0;
-`*/
+display: flex;
+align-items: center;
+justify-content: center;
+width: 630px;
+`

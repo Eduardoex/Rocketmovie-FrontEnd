@@ -1,4 +1,5 @@
-import {Container, Profile, /*Search */ Brand } from "./styles"
+import {Container, Profile, Search , Brand } from "./styles"
+import { Input } from "../Input"
 
 export function Header(){
   return(
@@ -7,19 +8,16 @@ export function Header(){
         <h1>RocketMovies</h1>
       </Brand>
 
+
+      <Search>
+      <Input placeholder="Pesquiser pelo título"/>
+      </Search>
+
       <Profile>
       <div>
         <strong>Eduardo de Lima</strong>
         <span>Sair</span>
       </div>
-      
-
-      {/*<Search>
-      <Input placeholder="Pesquiser pelo título"/>
-      </Search>*/}
-
-      {/* REMOVER QUANDO O INPUT FOR CRIADO*/}
-
       
       <img 
         src="https://github.com/eduardoex.png " 
