@@ -16,6 +16,8 @@ grid-template-areas:
   grid-area: content;
   overflow-y: auto;
   padding: 61px 0;
+
+  
 }
 ;
 
@@ -77,7 +79,6 @@ export const Content = styled.div`
         margin-right: 8px ;
       }
 
-
       > svg {
         color: ${({ theme }) => theme.COLORS.SALMON};
         margin:0 8px 0 8px;
@@ -96,10 +97,16 @@ export const Content = styled.div`
 
   > Section {
     margin: 0;
-    padding: 40px 0 40px 0;
+    padding: 40px 0 40px 0; 
+
+  > span {
+    
+      background-color: ${({ theme}) => theme.COLORS.GRAYSALMON};
+    
+   }
   }
 
- 
+  
   
   
 `
@@ -118,4 +125,6 @@ export const Back = styled.div`
   
 }
 `
+
+
 
