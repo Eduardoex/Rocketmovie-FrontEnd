@@ -8,6 +8,7 @@ export default {
     WHITE: "#F4EDE8",
     SALMON: "#FF859B",
     GRAYSALMON: "#282124",
+    BLACKSALMON: "#282424",
     
 
     GRAY_100: "#999591",

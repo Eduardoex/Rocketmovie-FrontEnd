@@ -43,6 +43,7 @@ text-align: center;
   display: flex;
   text-align: left;
   
+  
 }
 
 Button {
