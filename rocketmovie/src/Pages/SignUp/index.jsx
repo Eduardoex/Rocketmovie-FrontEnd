@@ -2,6 +2,7 @@ import {Container, Form, Cinema } from "./styles";
 import { Input } from "../../Components/Input"
 import { FiLock, FiMail, FiUser} from "react-icons/fi"
 import { AiOutlineArrowLeft } from "react-icons/ai"
+import { Link } from "react-router-dom"
 
 import {Button} from "../../Components/Button"
 
@@ -38,7 +39,7 @@ export function SignUp() {
 
         
          
-        <a href="#"><AiOutlineArrowLeft/><p>Voltar para o login</p></a>
+        <Link to="/"><AiOutlineArrowLeft/><p>Voltar para o login</p></Link>
         
 
       </Form>

@@ -1,6 +1,7 @@
 import {Container, Profile, Search , Brand } from "./styles"
 import { Input } from "../Input"
 
+
 export function Header(){
   return(
     <Container>
@@ -13,7 +14,7 @@ export function Header(){
       <Input placeholder="Pesquiser pelo título"/>
       </Search>
 
-      <Profile>
+      <Profile to="/profile">
       <div>
         <strong>Eduardo de Lima</strong>
         <span>Sair</span>

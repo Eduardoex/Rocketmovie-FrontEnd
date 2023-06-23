@@ -1,6 +1,7 @@
 import {Container, Form, Cinema } from "./styles";
 import { Input } from "../../Components/Input"
 import { FiLock, FiMail} from "react-icons/fi"
+import { Link } from "react-router-dom"
 
 import {Button} from "../../Components/Button"
 
@@ -27,7 +28,7 @@ export function SignIn() {
           <Button title="Entrar"/>
             
          
-        <a href="#">Criar conta</a>
+        <Link to="/Register">Criar conta</Link>
       </Form>
 
       <Cinema/>

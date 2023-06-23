@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom"
 
 export const Container  = styled.div`
 width: 100%;
@@ -54,7 +55,7 @@ align-items: center;
 `
 
 
-export const NewMovieInside = styled.button`
+export const NewMovieInside = styled(Link)`
   width: 20%;
   background-color: ${({theme}) => theme.COLORS.SALMON};
   color: ${({ theme }) => theme.COLORS.BACKGROUND_800};

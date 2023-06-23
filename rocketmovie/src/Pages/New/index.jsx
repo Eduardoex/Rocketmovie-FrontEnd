@@ -2,6 +2,8 @@ import { Header } from "../../Components/Header"
 import { FiArrowLeft } from "react-icons/fi"
 import { Input } from "../../Components/Input"
 import { Textarea } from "../../Components/Textarea"
+import { Link } from "react-router-dom"
+
 
 import { MovieItem } from "../../Components/MovieItem"
 import { Section } from "../../Components/Section"
@@ -18,7 +20,7 @@ export function New(){
 
       <main>
         <Form>
-          <a href="/"><FiArrowLeft/>Voltar</a>
+          <Link to="/"><FiArrowLeft/>Voltar</Link>
           <header>
             <h1>Novo filme</h1>
             
